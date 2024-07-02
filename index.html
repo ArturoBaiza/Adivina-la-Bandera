@@ -22,22 +22,20 @@
     <div class="pantalla-juego" id="pantalla-juego">
         <img src="imgs/ad.svg" alt="" id="imgBandera">
         <div class="opciones">
-            <div class="opcion" id="op0">
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
                 <div class="letra" id="l0">A</div>
                 <div class="nombre" id="n0">OPCION A</div>
             </div>
-            <div class="opcion" id="op1">
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
                 <div class="letra" id="l1">B</div>
                 <div class="nombre" id="n1">OPCION B</div>
             </div>
-            <div class="opcion" id="op2">
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
                 <div class="letra" id="l2">C</div>
                 <div class="nombre" id="n2">OPCION C</div>
             </div>
         </div>
-        <button class="btn" onclick="volverAlMenu()">VOLVER AL MENÚ</button>
     </div>
-
     <!-- Pantalla final -->
     <div id="pantalla-final">
         <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
