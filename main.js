@@ -90,3 +90,7 @@ function volverAlInicio() {
     document.getElementById("pantalla-inicial").style.display = "block";
     document.getElementById("pantalla-juego").style.display = "none";
 }
+
+function volverAlMenu() {
+    window.location.href = "https://juegos-5to-baco.onrender.com";
+}
