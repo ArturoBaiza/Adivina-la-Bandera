@@ -52,6 +52,7 @@ footer {
     border-radius: 50px;
     cursor: pointer;
     transition: .5s;
+    margin-top: 20px; /* Añadido para separación */
 }
 
 .btn:hover {
